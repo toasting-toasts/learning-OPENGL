@@ -6,7 +6,6 @@
 
 #include<glad/glad.h>
 #include<glfw/glfw3.h>
-#include<stb_image/stb_image.h>
 
 GLuint programID;
 GLuint vertexShaderID, fragmentShaderID;
@@ -194,4 +193,5 @@ int main(){
     after();
 
     return 0;
+
 }
